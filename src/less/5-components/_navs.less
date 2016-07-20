@@ -20,6 +20,9 @@
       position: relative;
       display: block;
       padding: @nav-link-padding;
+      @media (max-width: @screen-sm) {
+        padding: 10px 25px;
+      }
       &:hover,
       &:focus {
         text-decoration: none;
