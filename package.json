@@ -1,15 +1,15 @@
 {
-  "name": "build-system-boilerplate-bootstrap",
-  "description": "Build system boilerplate using LESS bootstrap. Folder layout design using SASS guidelines for easy maintain & change.",
-  "version": "0.3.6",
+  "name": "pattashi-janakalyan-static-site",
+  "description": "Static site builder for pattashi janakalyan secondary school & college",
+  "version": "3.0.0",
   "author": {
     "name": "Jobayer Arman",
     "email": "carbonjha@gmail.com"
   },
-  "license": "MIT",
+  "license": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jobayerarman/build-system-boilerplate-bootstrap.git"
+    "url": "https://github.com/Pattashi-Janakalyan-Secondary-School/pjkssc-static.git"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

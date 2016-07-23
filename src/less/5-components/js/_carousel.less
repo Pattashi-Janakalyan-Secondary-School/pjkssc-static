@@ -98,7 +98,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: @carousel-control-width;
+  width: @carousel-control-width - 5%;
   .opacity(@carousel-control-opacity);
   font-size: @carousel-control-font-size;
   color: @carousel-control-color;
@@ -139,12 +139,12 @@
   .icon-prev,
   .fa-chevron-left {
     left: 50%;
-    margin-left: -10px;
+    margin-left: -25px;
   }
   .icon-next,
   .fa-chevron-right {
     right: 50%;
-    margin-right: -10px;
+    margin-right: -25px;
   }
   .icon-prev,
   .icon-next {
@@ -174,7 +174,7 @@
 
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -220,7 +220,7 @@
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 20px;
+  bottom: 5px;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -249,11 +249,11 @@
     }
     .fa-chevron-left,
     .icon-prev {
-      margin-left: (@carousel-control-font-size / -2);
+      margin-left: -25px;
     }
     .fa-chevron-right,
     .icon-next {
-      margin-right: (@carousel-control-font-size / -2);
+      margin-right: -25px;
     }
   }
 
@@ -266,6 +266,6 @@
 
   // Move up the indicators
   .carousel-indicators {
-    bottom: 20px;
+    bottom: 5px;
   }
 }

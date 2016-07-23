@@ -73,8 +73,22 @@
     <div class="collapse navbar-collapse navbar-main">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/dist/index.html">Home</a></li>
-        <li><a href="/dist/pages/all-posts.html">All Posts</a></li>
-        <li><a href="/dist/pages/single-post.html">Single Post</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">All Posts <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="/dist/pages/all-posts.html">Full Width</a></li>
+            <li><a href="/dist/pages/all-sidebar.html">With Sidebar</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Single Post <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="/dist/pages/single-post.html">Full Width</a></li>
+            <li><a href="/dist/pages/single-sidebar.html">With Sidebar</a></li>
+          </ul>
+        </li>
         <li><a href="/dist/pages/search.html">Search</a></li>
         <li><a href="/dist/pages/archive.html">Archive</a></li>
         <li><a href="/dist/pages/404.html">404 Error</a></li>
@@ -85,7 +99,73 @@
 </div>
 <!-- /.navbar main -->
 
-<h1 class="text-center">all posts</h1>
+
+<div class="container content">
+  <article class="row">
+    <div class="col-md-12">
+      <img src="https://placehold.it/1200x350" alt="" class="img-responsive">
+      <h3 class="post-title"><a href="#">News Title</a></h3>
+      <h6 class="post-meta">
+        <span><i class="fa fa-calendar"></i> July 18, 2016</span>
+        <span><i class="fa fa-tag"></i> Featured, News</span>
+      </h6>
+      <hr>
+      <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias saepe non, reprehenderit, repellat dolorum dignissimos optio rem quibusdam. Possimus odit iure animi explicabo ex, ipsum libero et beatae illum expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias saepe non, reprehenderit, repellat dolorum dignissimos optio rem quibusdam. Possimus odit iure animi explicabo ex, ipsum libero et beatae illum expedita...<a href="#">Read Full Article</a></p>
+    </div>
+  </article>
+
+  <article class="row">
+    <div class="col-md-12">
+      <img src="https://placehold.it/1200x350" alt="" class="img-responsive">
+      <h3 class="post-title"><a href="#">News Title</a></h3>
+      <h6 class="post-meta">
+        <span><i class="fa fa-calendar"></i> July 18, 2016</span>
+        <span><i class="fa fa-tag"></i> Featured, News</span>
+      </h6>
+      <hr>
+      <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias saepe non, reprehenderit, repellat dolorum dignissimos optio rem quibusdam. Possimus odit iure animi explicabo ex, ipsum libero et beatae illum expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias saepe non, reprehenderit, repellat dolorum dignissimos optio rem quibusdam. Possimus odit iure animi explicabo ex, ipsum libero et beatae illum expedita...<a href="#">Read Full Article</a></p>
+    </div>
+  </article>
+
+  <article class="row">
+    <div class="col-md-12">
+      <img src="https://placehold.it/1200x350" alt="" class="img-responsive">
+      <h3 class="post-title"><a href="#">News Title</a></h3>
+      <h6 class="post-meta">
+        <span><i class="fa fa-calendar"></i> July 18, 2016</span>
+        <span><i class="fa fa-tag"></i> Featured, News</span>
+      </h6>
+      <hr>
+      <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias saepe non, reprehenderit, repellat dolorum dignissimos optio rem quibusdam. Possimus odit iure animi explicabo ex, ipsum libero et beatae illum expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias saepe non, reprehenderit, repellat dolorum dignissimos optio rem quibusdam. Possimus odit iure animi explicabo ex, ipsum libero et beatae illum expedita...<a href="#">Read Full Article</a></p>
+    </div>
+  </article>
+
+  <!-- pagination -->
+  <div class="row">
+    <div class="col-md-12">
+      <nav>
+        <ul class="pagination">
+          <li>
+            <a href="#" aria-label="Previous">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div> <!-- /pagination -->
+</div>
+
     <!-- main footer -->
     <footer class="container">
       <div class="row">
@@ -140,9 +220,9 @@
             <hr>
             <div class="social-links">
               <ul>
-                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                <li><a class="facebook" href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a class="google-plus" href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
               </ul>
             </div>
           </div>

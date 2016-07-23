@@ -73,8 +73,22 @@
     <div class="collapse navbar-collapse navbar-main">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/dist/index.html">Home</a></li>
-        <li><a href="/dist/pages/all-posts.html">All Posts</a></li>
-        <li><a href="/dist/pages/single-post.html">Single Post</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">All Posts <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="/dist/pages/all-posts.html">Full Width</a></li>
+            <li><a href="/dist/pages/all-sidebar.html">With Sidebar</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Single Post <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="/dist/pages/single-post.html">Full Width</a></li>
+            <li><a href="/dist/pages/single-sidebar.html">With Sidebar</a></li>
+          </ul>
+        </li>
         <li><a href="/dist/pages/search.html">Search</a></li>
         <li><a href="/dist/pages/archive.html">Archive</a></li>
         <li><a href="/dist/pages/404.html">404 Error</a></li>
@@ -85,7 +99,19 @@
 </div>
 <!-- /.navbar main -->
 
-<h1 class="text-center">404 Error Page</h1>
+
+<div class="container content error">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">404</h1>
+      <h2 class="text-center alert alert-danger" role="alert">Oops, The Page Was Not Found</h2>
+      <div class="back-btn">
+        <a href="#" class="btn btn-ghost"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Go Back Home</a>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- main footer -->
     <footer class="container">
       <div class="row">
@@ -140,9 +166,9 @@
             <hr>
             <div class="social-links">
               <ul>
-                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                <li><a class="facebook" href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a class="google-plus" href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
               </ul>
             </div>
           </div>

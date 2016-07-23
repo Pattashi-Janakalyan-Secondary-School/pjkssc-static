@@ -3249,6 +3249,25 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
+article:not(:last-child) {
+  margin-bottom: 30px;
+}
+article .post-title > a {
+  color: #333333;
+}
+article .post-meta {
+  color: #555555;
+}
+article span:not(:last-child) {
+  margin-right: 10px;
+}
+.sidebar h6 {
+  margin: 0;
+  line-height: 1.4;
+}
+.sidebar h6 small {
+  margin-left: 5px;
+}
 footer {
   margin-top: 30px;
   background-color: #fff;
@@ -3996,7 +4015,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 0;
-  margin-bottom: 2rem;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -5651,6 +5669,15 @@ button.close {
   border: 0;
   -webkit-appearance: none;
 }
+.social .facebook {
+  color: #3B5998;
+}
+.social .twitter {
+  color: #00ACED;
+}
+.social .google-plus {
+  color: #DD4B39;
+}
 .modal-open {
   overflow: hidden;
 }
@@ -6097,7 +6124,7 @@ button.close {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 15%;
+  width: 10%;
   opacity: 0.5;
   filter: alpha(opacity=50);
   font-size: 20px;
@@ -6131,12 +6158,12 @@ button.close {
 .carousel-control .icon-prev,
 .carousel-control .fa-chevron-left {
   left: 50%;
-  margin-left: -10px;
+  margin-left: -25px;
 }
 .carousel-control .icon-next,
 .carousel-control .fa-chevron-right {
   right: 50%;
-  margin-right: -10px;
+  margin-right: -25px;
 }
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -6153,7 +6180,7 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -6184,7 +6211,7 @@ button.close {
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 20px;
+  bottom: 5px;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -6207,11 +6234,11 @@ button.close {
   }
   .carousel-control .fa-chevron-left,
   .carousel-control .icon-prev {
-    margin-left: -10px;
+    margin-left: -25px;
   }
   .carousel-control .fa-chevron-right,
   .carousel-control .icon-next {
-    margin-right: -10px;
+    margin-right: -25px;
   }
   .carousel-caption {
     left: 20%;
@@ -6219,7 +6246,7 @@ button.close {
     padding-bottom: 30px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    bottom: 5px;
   }
 }
 /*!
@@ -6735,7 +6762,7 @@ fieldset[disabled] .btn-danger.active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 .navbar-top {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .navbar-top a {
   font-family: "Montserrat", "Segoe UI", Trebuchet, Tahoma, Arial, sans-serif;
@@ -6748,22 +6775,28 @@ header {
 .pad-out {
   padding: 0;
 }
-section {
+.content {
   background-color: #fff;
   border-radius: 4px;
-  margin-top: 30px;
+  margin-top: 15px;
   color: #222222;
-  padding: 15px 0;
+  padding: 15px;
 }
-section article:not(:last-child) {
-  margin-bottom: 30px;
+.main-slider {
+  margin-top: 15px;
 }
-section .post-title > a {
-  color: #333333;
+.error h1 {
+  font-size: 15rem;
 }
-section .post-meta {
-  color: #555555;
+@media (max-width: 768px) {
+  .error h1 {
+    font-size: 10rem;
+  }
 }
-section span:not(:last-child) {
-  margin-right: 10px;
+.error .back-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 140px;
 }
