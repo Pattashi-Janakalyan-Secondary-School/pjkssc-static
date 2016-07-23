@@ -3252,6 +3252,9 @@ input[type="button"].btn-block {
 article:not(:last-child) {
   margin-bottom: 30px;
 }
+article .post-title {
+  margin-top: 0;
+}
 article .post-title > a {
   color: #333333;
 }
@@ -6799,4 +6802,7 @@ header {
   margin-right: auto;
   margin-top: 30px;
   max-width: 140px;
+}
+.search-item:not(:last-child) {
+  margin-bottom: 30px;
 }

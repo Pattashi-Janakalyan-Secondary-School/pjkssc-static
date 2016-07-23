@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Font-awesome CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- User Stylesheet -->
     <!-- build:css /css/style.min.css -->
@@ -31,14 +31,14 @@
   <div class="container pad-out">
     <div class="row">
       <div class="col-md-2">
-        <a href="#">Login</a>
+        <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
       </div>
       <div class="col-md-3 col-md-offset-7">
         <form class="form-inline pull-right">
           <div class="form-group">
             <div class="input-group">
               <input type="text" class="form-control" id="exampleInputAmount" placeholder="Search...">
-              <div class="input-group-addon"><i class="fa fa-search"></i></div>
+              <div class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
             </div>
           </div>
         </form>
@@ -99,7 +99,37 @@
 </div>
 <!-- /.navbar main -->
 
-<h1 class="text-center">Login Page</h1>
+
+<div class="container content">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <form class="form-signin">
+        <div class="form-group">
+          <label for="exampleInputEmail1"><h6>Email address</h6></label>
+          <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"><h6>Password</h6></label>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember Me
+          </label>
+        </div>
+        <br>
+        <button class="btn btn-primary" type="submit">Sign in</button>
+      </form>
+    </div>
+  </div>
+</div>
+
     <!-- main footer -->
     <footer class="container">
       <div class="row">

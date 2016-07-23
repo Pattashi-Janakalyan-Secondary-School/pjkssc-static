@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Font-awesome CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- User Stylesheet -->
     <!-- build:css /css/style.min.css -->
@@ -31,14 +31,14 @@
   <div class="container pad-out">
     <div class="row">
       <div class="col-md-2">
-        <a href="#">Login</a>
+        <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
       </div>
       <div class="col-md-3 col-md-offset-7">
         <form class="form-inline pull-right">
           <div class="form-group">
             <div class="input-group">
               <input type="text" class="form-control" id="exampleInputAmount" placeholder="Search...">
-              <div class="input-group-addon"><i class="fa fa-search"></i></div>
+              <div class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
             </div>
           </div>
         </form>
@@ -99,7 +99,262 @@
 </div>
 <!-- /.navbar main -->
 
-<h1 class="text-center">search page</h1>
+
+<div class="container content">
+  <div class="row">
+    <!-- nine columns content area -->
+    <div class="col-md-9">
+      <form action="#" class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="search">Search</label>
+          <div class="input-group">
+            <div class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <input type="text" class="form-control" id="search" placeholder="Search...">
+          </div>
+        </div>
+        <a type="submit" class="btn btn-primary">Search</a>
+      </form>
+      <br>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Search results for: "Everything"</h4>
+        </div>
+      </div>
+      <br>
+
+      <!-- search items -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row search-item">
+            <div class="col-md-2"><img src="https://placehold.it/128" alt="" class="img-responsive"></div>
+            <div class="col-md-10">
+              <article>
+                <h4 class="post-title"><a href="#">News Title</a></h4>
+                <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit...<a href="#">Read Full Article</a></p>
+              </article>
+            </div>
+          </div>
+          <div class="row search-item">
+            <div class="col-md-2"><img src="https://placehold.it/128" alt="" class="img-responsive"></div>
+            <div class="col-md-10">
+              <article>
+                <h4 class="post-title"><a href="#">News Title</a></h4>
+                <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit...<a href="#">Read Full Article</a></p>
+              </article>
+            </div>
+          </div>
+          <div class="row search-item">
+            <div class="col-md-2"><img src="https://placehold.it/128" alt="" class="img-responsive"></div>
+            <div class="col-md-10">
+              <article>
+                <h4 class="post-title"><a href="#">News Title</a></h4>
+                <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit...<a href="#">Read Full Article</a></p>
+              </article>
+            </div>
+          </div>
+          <div class="row search-item">
+            <div class="col-md-2"><img src="https://placehold.it/128" alt="" class="img-responsive"></div>
+            <div class="col-md-10">
+              <article>
+                <h4 class="post-title"><a href="#">News Title</a></h4>
+                <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit...<a href="#">Read Full Article</a></p>
+              </article>
+            </div>
+          </div>
+          <div class="row search-item">
+            <div class="col-md-2"><img src="https://placehold.it/128" alt="" class="img-responsive"></div>
+            <div class="col-md-10">
+              <article>
+                <h4 class="post-title"><a href="#">News Title</a></h4>
+                <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit...<a href="#">Read Full Article</a></p>
+              </article>
+            </div>
+          </div>
+          <!-- /.search items -->
+
+          <!-- pagination -->
+          <div class="row">
+            <div class="col-md-12">
+              <nav>
+                <ul class="pagination">
+                  <li>
+                    <a href="#" aria-label="Previous">
+                      <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div> <!-- /pagination -->
+        </div>
+      </div>
+    </div> <!-- /.nine columns content area -->
+
+    <!-- sidebar widgets -->
+    <div class="col-md-3">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- recent post -->
+          <div class="panel panel-primary sidebar">
+            <div class="panel-heading">
+              <h3 class="panel-title">Recent Posts</h3>
+            </div>
+            <!-- list group -->
+            <div class="list-group">
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- /.list group -->
+          </div>
+          <!-- /.recent post -->
+
+          <!-- popular post -->
+          <div class="panel panel-primary sidebar">
+            <div class="panel-heading">
+              <h3 class="panel-title">Popular Posts</h3>
+            </div>
+            <!-- list group -->
+            <div class="list-group">
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="https://placehold.it/64" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h6>Post Title <br><small>July 18, 2016</small></h6>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- /.list group -->
+          </div>
+          <!-- /.popular post -->
+        </div>
+      </div>
+    </div>
+    <!-- /sidebar widgets -->
+  </div>
+</div>
+
     <!-- main footer -->
     <footer class="container">
       <div class="row">
